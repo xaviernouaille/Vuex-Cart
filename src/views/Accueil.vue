@@ -1,7 +1,7 @@
 <template>
   <section>
     <v-parallax
-      src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
+      src="https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
     ></v-parallax>
 
     <section>

@@ -20,8 +20,9 @@ const actions = {
     getBestSeller({ commit }) {
         // axios request
         const bestSeller = [
-            { id: 'f1esfse', title: 'Blabla', text: 'bbb', cost: 20 },
-            { id: 'fjksfjke14', title: 'Le titre', text: 'Ceci est le contenu', cost: 40 }
+            { id: 'f1esfse', title: 'Item 1', text: 'bbb', cost: 20 },
+            { id: 'fjksfjke14', title: 'Item 2', text: 'Ceci est le contenu', cost: 40 },
+            { id: 'oaps412', title: 'Item 3', text: 'Ceci est le contenu', cost: 60 }
         ]
         commit('setBestSeller', bestSeller)
     },

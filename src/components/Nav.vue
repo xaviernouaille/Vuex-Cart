@@ -1,11 +1,16 @@
 <template>
   <nav class="d-flex justify-space-between align-center px-10 py-3">
-    <router-link to="/"> Accueil </router-link>
-    <v-list class="d-flex pa-0">
+    <router-link
+      to="/"
+      class="black--text text-decoration-none font-weight-bold"
+    >
+      Brand
+    </router-link>
+    <!-- <v-list class="d-flex pa-0">
       <v-list-item class="mx-5">Test</v-list-item>
       <v-list-item class="mx-5">Test</v-list-item>
       <v-list-item class="mx-5">Test</v-list-item>
-    </v-list>
+    </v-list> -->
     <div style="position: relative">
       <v-btn outlined depressed @click="isShow = !isShow"
         >Cart {{ totalCount }}</v-btn
