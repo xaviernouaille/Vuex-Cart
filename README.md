@@ -2,7 +2,7 @@
 Boutique crée avec VueJS, centralisation des données des produits et du panier avec Vuex
 
 ## Technologies utilisées
-VueJS & Vuex
+VueJS, Vuetify & Vuex
 
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/68466322/99806904-f5fe9100-2b3e-11eb-9afa-bfe81c497dfd.png)
