@@ -18,7 +18,14 @@
           color="green"
           ><v-icon>mdi-cart-arrow-down</v-icon></v-btn
         >
-        <v-btn depressed @click="add(item)" color="orange" class="white--text"
+        <v-btn
+          depressed
+          @click="
+            add(item);
+            $router.push('/checkout');
+          "
+          color="orange"
+          class="white--text"
           >Achat direct <v-icon>mdi-arrow-right</v-icon></v-btn
         >
       </div>
