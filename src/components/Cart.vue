@@ -2,21 +2,21 @@
   <section class="cart white pa-8">
     <section v-if="items.length > 0">
       <div class="mb-6" v-for="item in items" :key="item.id">
-        <div class="d-flex justify-space-between">
+        <div class="d-flex justify-space-between align-center">
           <div class="d-flex">
             <router-link :to="'/product/' + item.id">{{
               item.title
             }}</router-link>
-            <p class="ml-4" v-if="item.qty">x{{ item.qty }}</p>
+            <p class="ml-4 mb-0" v-if="item.qty">x{{ item.qty }}</p>
           </div>
-          <p>{{ item.cost * item.qty }}</p>
+          <p class="mb-0">{{ item.cost * item.qty }}€</p>
+          <v-btn @click="add(item)" color="green" class="white--text">+</v-btn>
         </div>
-        <v-btn @click="add(item)">+</v-btn>
         <v-divider class="mt-5"></v-divider>
       </div>
       <div class="d-flex justify-space-between align-center">
-        <p class="ma-0">Total : {{ totalCost }}</p>
-        <v-btn small color="green" outlined>Check-out</v-btn>
+        <p class="ma-0">Total : {{ totalCost }}€</p>
+        <v-btn small color="purple" outlined to="/checkout">Check-out</v-btn>
       </div>
     </section>
     <section v-else>
@@ -50,7 +50,7 @@ export default {
 
 <style>
 .cart {
-  width: 300px;
+  width: 320px;
   border-radius: 10px;
   max-height: 400px;
   overflow-y: scroll;

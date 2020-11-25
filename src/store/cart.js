@@ -29,7 +29,6 @@ const mutations = {
             payload.qty = 1
             state.items.unshift(payload)
         }
-        console.log(state.items)
     }
 }
 

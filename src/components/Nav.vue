@@ -1,5 +1,5 @@
 <template>
-  <nav class="d-flex justify-space-between align-center px-10 py-3">
+  <nav class="d-flex justify-space-between align-center px-3 px-md-10 py-3">
     <router-link
       to="/"
       class="black--text text-decoration-none font-weight-bold"
