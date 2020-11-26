@@ -5,18 +5,17 @@ Boutique crée avec VueJS, centralisation des données des produits et du panier
 VueJS, Vuetify & Vuex
 
 ## Screenshots
-
 - Pages des produits
 
-![image](https://user-images.githubusercontent.com/68466322/100243386-17dc8700-2f36-11eb-94eb-15df022f1aad.png)
+![image](https://user-images.githubusercontent.com/68466322/100368128-79b6f280-3003-11eb-9897-28659f70b3a7.png)
 
 - Page produit
 
-![image](https://user-images.githubusercontent.com/68466322/100243443-2a56c080-2f36-11eb-938a-7d261852c1a0.png)
+![image](https://user-images.githubusercontent.com/68466322/100368147-80456a00-3003-11eb-9e13-83184f656d85.png)
 
 - Check-out
 
-![image](https://user-images.githubusercontent.com/68466322/100243471-32166500-2f36-11eb-9073-79cc44d24971.png)
+![image](https://user-images.githubusercontent.com/68466322/100368186-8a676880-3003-11eb-8094-bf121679b16d.png)
 
 ## Project setup
 ```
