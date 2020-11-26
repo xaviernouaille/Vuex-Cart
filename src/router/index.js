@@ -27,6 +27,10 @@ const routes = [
         return next('/')
       }
     }
+  },
+  {
+    path: '*',
+    redirect: '/'
   }
 ]
 

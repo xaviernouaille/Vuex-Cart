@@ -4,7 +4,9 @@
       <Nav />
     </header>
     <v-main>
-      <router-view></router-view>
+      <transition name="page" appear mode="out-in">
+        <router-view></router-view>
+      </transition>
     </v-main>
 
     <v-footer class="mt-16">
@@ -25,3 +27,15 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.5s ease;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+  transform: translateX(-30%);
+}
+</style>
